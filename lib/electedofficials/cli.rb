@@ -24,30 +24,39 @@ class Electedofficials::CLI
   end
 
   def menu
-    puts "Enter the number corresponding to the Office you would like to learn more about, or exit to exit"
+    puts "Enter the number corresponding to the Office you would like to learn more about, or 'exit' to exit."
     input = nil
-    while input != "exit"
-      input = gets.strip
-      case input
-      when "1"
-        puts "The Mayor of New York City is: Bill de Blasio"
-      when "2"
-        puts "The New York City Council Members are:"
-        city_council
-      when "3"
-        puts "The New York City Borough Presidents are:"
-        borough_presidents
-      when "list"
-        representatives
-      when "exit"
-        goodbye
-      else
-        puts "Invalid Input; type list to see list of Offices or exit to exit"
+      while input != "exit"
+        input = gets.strip
+        case input
+        when "1"
+          puts "The Mayor of New York City is: Bill de Blasio"
+          options
+        when "2"
+          puts "The New York City Council Members are:"
+          city_council
+          options
+        when "3"
+          puts "The New York City Borough Presidents are:"
+          borough_presidents
+          options
+        when "list"
+          representatives
+          options
+        when "exit"
+          goodbye
+        else
+          puts "Invalid Input"
+          options
+        end
       end
-    end
   end
 
   def goodbye
     puts "Goodbye!"
+  end
+
+  def options
+      puts "Enter 'list' for list of Offices or 'exit' to exit"
   end
 end
