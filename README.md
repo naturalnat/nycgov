@@ -1,6 +1,6 @@
 # Electedofficials
 
-Provides a list of current names of NYC Elected Officials. Includes: NYC Mayor, City Council, and Borough Presidents. 
+Provides a list of current names of NYC Elected Officials. Includes: NYC Mayor, City Council, and Borough Presidents.
 
 ## Installation
 
