@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require './lib/electedofficials'
+Electedofficials::CLI.new.call
