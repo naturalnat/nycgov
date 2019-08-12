@@ -1,8 +1,6 @@
 # Electedofficials
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/electedofficials`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Provides a list of current names of NYC Elected Officials. Includes: NYC Mayor, City Council, and Borough Presidents. 
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Upon running the program, you will be prompted with a list of NYC elected offices. Each one corresponds with a number on the list. Enter the number of the list to view the names of the elected officials in the current year. Exit to exit.  
 
 ## Development
 
